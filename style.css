@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color: white;
+}
+nav{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    padding: 17px 28px;
+    font-weight: bold;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #1ed760;
+}
+main{
+    height: 969px;
+    background-color: rgb(41,65,171);
+    background-image:url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+}
+main >section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.title-area{
+    font-size: 146px;
+    color: #1ed760;
+    font-weight: 900;
+    line-height: 166px;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+.title-area>:first-child{
+    position: relative;
+    left: -2.5em;
+}
+.main-info{
+    color: #1ed760;
+    padding: 40px 0px;
+    font-size: 18px;
+}
+main button{
+    text-align: center;
+    padding: 14px 32px;
+    background-color: #1ed760;
+    color: rgb(41,65,171);
+    font-weight: 800;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+main button:hover{
+    scale: 1.1;
+}
+footer{
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+footer>section{
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.first-menu-area{
+    display: flex;
+    justify-content: space-between;
+}
+.border{
+    border: 1px solid red;
+}
+.first-menu{
+    display: flex;
+    flex-direction: column;
+}
+.first-menu>div{
+    color: #919496;
+    margin: 20px 0px;
+    font-weight: 900;
+}
+.first-menu>a{
+    margin-top: 3px;
+    margin-bottom: 15px;   
+}
+.box1{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.last-menu-area{
+    color: #919496;
+}
+.usa{
+    text-align: end;
+}
+.last-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.last-menu a{
+    color: #919496;
+    margin-right: 24px;
+}
+.last-menu a:hover{
+    color: #1ed760;
+}
+.box2{
+    width: 20%;
+}
+.sns-icon{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.sns-icon>i{
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sns-icon>i:hover{
+    color: #1ed760;
+}
