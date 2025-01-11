@@ -1,0 +1,370 @@
+.border{
+    border: 1px solid red;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.fixed{
+    position: fixed;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo-img{
+    cursor: pointer;
+}
+.fa-house{
+    background-color: rgb(31, 31, 31);
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 1.5em;
+}
+.fa-house:hover{
+    scale: 1.05;
+}
+.input-area{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.input-area>a{
+    color: white;
+    text-decoration: none;
+}
+.input-area>span{
+    position: relative;
+}
+.input-area>span>input{
+    background-color: rgb(31, 31, 31);   
+    outline: none;
+    border: none;
+    padding: 18px 40px;
+    width: 450px;
+    border-radius: 2.5em;
+    color: rgb(193, 193, 193);
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-area>span>input:hover{
+    background-color: rgb(57, 57, 57);
+    transition: 0.5s;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 20px;
+    color: rgb(123, 123, 123);
+}
+.input-area>span>span{
+    position: absolute;
+    right: 45px;
+    font-size: 30px;
+    color: rgb(123, 123, 123);
+}
+.fa-basket-shopping{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 24px;
+    color: rgb(123, 123, 123);
+}
+.nav-login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    color: rgb(193, 193, 193);
+}
+.sign-up{
+    font-weight: bold;
+    cursor: pointer;
+}
+.sign-up:hover{
+    scale: 1.1;
+    color: white;
+    transition: 0.2s;
+}
+.nav-login:first-child:hover{
+    scale: 1.05;
+}
+.nav-login>button{
+    padding: 18px 40px;
+    border-radius: 2.5em;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+.nav-login>button:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
+.library-area{
+    height: 98%;
+    width: 20%;
+    background-color: rgb(30, 30, 30);
+    margin-left: 8px;
+    border-radius: 0.5em;
+}
+.library-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    color: rgb(193, 193, 193);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.library-box>span{
+    display: flex;
+    width: 130px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.library-box>span:hover{
+    color: white;
+    transition: 0.2s;
+}
+.fa-plus{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 50%;
+}
+.fa-plus:hover{
+    background-color:rgb(53, 53, 53) ;
+    transition: 0.2s;
+}
+.playlist-area{
+    height: 350px;
+    overflow-y: hidden;
+}
+.playlist-area:hover{
+    overflow-y: auto;
+}
+.playlist-box{
+    background-color: rgb(53, 53, 53);
+    height: 115px;
+    margin: 20px 8px; 
+    border-radius: 0.5em;
+    padding: 20px;
+}
+.pl-title{
+    color: white;
+    font-weight: bolder;
+}
+.pl-sub-title{
+    font-size: 13px;
+    margin-top: 8px;
+}
+.playlist-box>button{
+    outline: none;
+    padding: 8px 16px;
+    margin-top: 16px;
+    border-radius: 2.5em;
+    border: none;
+    font-weight: bold;
+}
+.link-area{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.link-area>a{
+    text-decoration: none;
+    color: rgb(193, 193, 193);
+    font-size: 11px;
+    padding: 10px;
+}
+.cookie{
+    padding: 0px 20px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.language-btn{
+    border: 1px solid rgb(193, 193, 193);
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 8px 16px;
+    margin: 20px;
+    border-radius: 2.5em;
+    cursor: pointer;
+}
+.language-btn:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+.artist-area{
+    width: 80%;
+    height: 98%;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 0.5em;
+    overflow-y: hidden;
+    background: linear-gradient(rgb(53, 53, 53),rgb(11, 11, 11));
+    padding: 0px 10px;
+}
+.artist-area:hover{
+    overflow-y: auto;
+}
+.artist-album-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.artist-box{
+    height: 340px;
+    padding: 13px 10px;
+}
+.artist-title{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 10px;
+}
+.first-title{
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+}
+.first-title:hover{
+    text-decoration: underline;
+}
+.show-all{
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+}
+.show-all:hover{
+    text-decoration: underline;
+}
+.album-area{
+    width: 200px;
+    padding: 20px;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.album-area:hover{
+    background-color: rgba(53, 53, 53, 0.934);
+    transition: 0.5s;
+}
+.album-img{
+    border-radius: 50%;
+}
+.album-img2{
+    border-radius: 0.5em;
+}
+.footer-area{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.line{
+    border-bottom: 1px solid rgb(53, 53, 53);
+    width: 100%;
+    align-self: center;
+}
+.footer-link-area{
+    display: flex;
+    justify-content: space-between;
+}
+.first-link-area{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+}
+.first-link{
+    display: flex;
+    flex-direction: column;
+}
+.first-link>div{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.first-link>a{
+    text-decoration: none;
+    color: rgb(125, 125, 125);
+    padding: 5px 0px;
+}
+.first-link>a:hover{
+    color: white;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.sns-icons{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    font-size: 20px;
+    height: 50px;
+    align-items: center;
+}
+.sns-icons>i{
+    background-color: rgb(59, 59, 59);
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.sns-icons>i:hover{
+    background-color:rgb(125, 125, 125) ;
+    transition: 0.3s;
+}
+.info-area{
+    color: rgb(125, 125, 125);
+    font-size: 14px;
+}
+.info-area>div>span{
+    color: white;
+    cursor: pointer;
+}
+.info-area>div>span:hover{
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.banner-area{
+    height: 48px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,rgb(188, 15, 236),rgb(61, 148, 255));
+    margin: 0px 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+.banner-area>:first-child>:first-child{
+    font-weight: bold;
+}
+.banner-area>button{
+    width: 150px;
+    border: none;
+    border-radius: 2.5em;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.banner-area>button:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}

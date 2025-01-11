@@ -67,6 +67,17 @@ main button{
 main button:hover{
     scale: 1.1;
 }
+section>.move-button{
+    color: rgb(41,65,171);
+    background-color: #1ed760;
+    padding: 14px 32px;
+    font-weight: 800;
+    border-radius: 24px;
+}
+section>.move-button:hover{
+    scale: 1.1;
+}
+
 footer{
     height: 530px;
     background-color: black;
