@@ -130,6 +130,9 @@ main{
     background-color: rgb(30, 30, 30);
     margin-left: 8px;
     border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .library-box{
     display: flex;
