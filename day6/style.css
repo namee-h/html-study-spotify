@@ -67,7 +67,7 @@ nav{
 }
 .fa-magnifying-glass{
     position: absolute;
-    top: 20px;
+    top: 18px;
     left: 10px;
     font-size: 20px;
     color: rgb(123, 123, 123);
@@ -133,6 +133,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .library-box{
     display: flex;
